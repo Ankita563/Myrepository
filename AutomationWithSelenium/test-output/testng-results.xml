@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[=====Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session Ended=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session Ended=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session Ended=====]]>
+    </line>
+  </reporter-output>
+  <suite name="WebApp" duration-ms="152" started-at="2019-06-07T03:09:26Z" finished-at="2019-06-07T03:09:26Z">
+    <groups>
+    </groups>
+    <test name="flipkart" duration-ms="30" started-at="2019-06-07T03:09:26Z" finished-at="2019-06-07T03:09:26Z">
+      <class name="first.LoginToFlipkart">
+        <test-method status="PASS" signature="StartBrowser()[pri:0, instance:first.LoginToFlipkart@2a5ca609]" name="StartBrowser" is-config="true" duration-ms="5" started-at="2019-06-07T03:09:26Z" finished-at="2019-06-07T03:09:26Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- StartBrowser -->
+        <test-method status="PASS" signature="LoginToFlipkart()[pri:0, instance:first.LoginToFlipkart@2a5ca609]" name="LoginToFlipkart" duration-ms="4" started-at="2019-06-07T03:09:26Z" description="This test case is for Login" finished-at="2019-06-07T03:09:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToFlipkart -->
+        <test-method status="PASS" signature="LoginToFlipkart1()[pri:0, instance:first.LoginToFlipkart@2a5ca609]" name="LoginToFlipkart1" is-config="true" duration-ms="0" started-at="2019-06-07T03:09:26Z" finished-at="2019-06-07T03:09:26Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session Ended=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginToFlipkart1 -->
+      </class> <!-- first.LoginToFlipkart -->
+      <class name="first.LogoutfromFlipkart">
+        <test-method status="PASS" signature="StartBrowser()[pri:0, instance:first.LogoutfromFlipkart@20e2cbe0]" name="StartBrowser" is-config="true" duration-ms="0" started-at="2019-06-07T03:09:26Z" finished-at="2019-06-07T03:09:26Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- StartBrowser -->
+        <test-method status="PASS" signature="LogoutfromFlipkart()[pri:0, instance:first.LogoutfromFlipkart@20e2cbe0]" name="LogoutfromFlipkart" duration-ms="2" started-at="2019-06-07T03:09:26Z" description="This test case is for Logout" finished-at="2019-06-07T03:09:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutfromFlipkart -->
+        <test-method status="PASS" signature="LogoutfromFlipkart1()[pri:0, instance:first.LogoutfromFlipkart@20e2cbe0]" name="LogoutfromFlipkart1" is-config="true" duration-ms="0" started-at="2019-06-07T03:09:26Z" finished-at="2019-06-07T03:09:26Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session Ended=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LogoutfromFlipkart1 -->
+      </class> <!-- first.LogoutfromFlipkart -->
+    </test> <!-- flipkart -->
+    <test name="MakeMyTrip" duration-ms="3" started-at="2019-06-07T03:09:26Z" finished-at="2019-06-07T03:09:26Z">
+      <class name="second.LoginToMMT">
+        <test-method status="PASS" signature="LoginToMMT()[pri:0, instance:second.LoginToMMT@3532ec19]" name="LoginToMMT" duration-ms="1" started-at="2019-06-07T03:09:26Z" description="This test case is for Login" finished-at="2019-06-07T03:09:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToMMT -->
+        <test-method status="PASS" signature="StartBrowser()[pri:0, instance:second.LoginToMMT@3532ec19]" name="StartBrowser" is-config="true" duration-ms="0" started-at="2019-06-07T03:09:26Z" finished-at="2019-06-07T03:09:26Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- StartBrowser -->
+        <test-method status="PASS" signature="LoginToMMT1()[pri:0, instance:second.LoginToMMT@3532ec19]" name="LoginToMMT1" is-config="true" duration-ms="0" started-at="2019-06-07T03:09:26Z" finished-at="2019-06-07T03:09:26Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session Ended=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginToMMT1 -->
+      </class> <!-- second.LoginToMMT -->
+    </test> <!-- MakeMyTrip -->
+  </suite> <!-- WebApp -->
+</testng-results>
